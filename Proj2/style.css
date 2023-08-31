@@ -1,0 +1,21 @@
+
+body{
+    background-color: black;
+}
+h2, h3, h4{
+    color: yellow;
+    background-color:tomato;
+}
+h1, h2, h3, h4{
+    text-align: center;
+}
+b{
+    color: black;
+    background-color: white;
+}
+h1{
+    color: yellow;
+}
+p{
+    color: white;
+}

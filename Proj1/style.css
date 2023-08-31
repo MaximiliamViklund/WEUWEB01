@@ -1,0 +1,40 @@
+
+h1{
+    color:black;
+
+}
+
+p{
+    color:black;
+}
+
+h3{
+    color:black;
+    background-image: -moz-radial-gradient();
+}
+
+body{
+    background-color:white;
+    margin: 0px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+}
+
+h2{
+    color:black;
+}
+ul{
+    background-color:tomato;
+    color: white;
+    
+}
+li{
+    background-color: black;
+    color: white;
+}
+ol{
+    color:white;
+    background-color: brown;
+    
+}
