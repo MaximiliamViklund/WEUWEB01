@@ -4,9 +4,40 @@ body{
 }
 
 h1{
-    color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: dimgrey;
+    border: 10px;
+    border-color: black;
 }
-
+li{
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: white;
+    background-color:dimgrey;
+}
 ul{
-    align-items: center;
+    border: 5px;
+    border-color: yellow;
+}
+.jul{
+    color: tomato;
+}
+td, th{
+    color: black;
+    border: 1px solid tomato;
+}
+table{
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+td{
+    background-color: bisque;
+}
+th{
+    background-color: grey;
 }
