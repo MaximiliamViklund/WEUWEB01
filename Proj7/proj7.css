@@ -1,7 +1,7 @@
 
 div{
-    border: 5px solid #D6001C;
-    border-radius: 5px;
+    border: 1px solid #D6001C;
+    border-radius: 1px;
 }
 h1{
     font-family: ;
@@ -33,9 +33,14 @@ h1{
     min-width: 10%;
     display: flex;
     flex-direction: column;
+    background-image: url(./imgs/christmasTree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #v{
     max-width: 15%;
+    display: flex;
+    flex-direction: column;
 }
 
 img{
