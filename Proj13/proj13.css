@@ -1,0 +1,73 @@
+body{
+    background-image: url(./img/winter_bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 2fr 6fr;
+}
+
+
+
+.top{
+    display: grid;
+    grid-template-columns: 1fr 7fr 1fr;
+}
+.rub{
+    background-color: rgb(99, 98, 98);
+    border: 1px solid tomato;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
+.x{
+    margin-left: 55px;
+}
+
+
+
+.jul{
+    background-color: white;
+    color: tomato;
+}
+.ny{
+    background-color: goldenrod;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    color: white;
+    background-color: rgb(99, 98, 98);
+    border: 1px solid goldenrod;
+    flex-direction: column;
+    width: 25%;
+}
+.jul,.ny{
+   margin-right: 170px; 
+}
+li{
+    margin-top: 5px;
+}
+
+
+
+.bottom{
+    display: grid;
+    grid-template-rows: 1fr 8fr;
+    background-color: #F6E9DC;
+}
+.cal{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+    color: black;
+    background-color: #F6E9DC;
+    border: 3px solid tomato;
+}
+.dag{
+    background-color: darkgray;
+}
+.w{
+    color: tomato;
+}
