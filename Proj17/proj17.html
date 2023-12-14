@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./proj17.js"></script>
+    <link rel="stylesheet" href="./proj17.css">
+</head>
+<body>
+    <h1 onclick="change_bg()" id="rubrik">JS Övning 1</h1>
+    <main>
+        <label>Ny Rubrik <input type="text" id="text_fält"></label>
+        <button onclick="klickad()">Klicka här</button>
+
+        <div class="diven"></div>
+        <label>Ny text <input type="text" id="ny_text"></label>
+        <button onclick="ny_text()">Klicka här</button>
+        <br>
+        <button onclick="reset()">Byt stil</button>
+
+        <img src="./imgs/album1.webp" alt="Ett skivomslag">
+        <button onclick="byt_skiva()">Byt skiva</button>
+
+        <h2>Byt font på knapparna</h2>
+        <article>
+            <button onclick="byt_font_knappar('Verdana')">Verdana</button>
+            <button onclick="byt_font_knappar('Georgia')">Georgia</button>
+            <button onclick="byt_font_knappar('Tahoma')">Tahoma</button>
+        </article>
+    </main>
+</body>
+</html>
